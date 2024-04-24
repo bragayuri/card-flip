@@ -57,7 +57,7 @@ export default {
           person: "Seb",
           image:
             "https://s3.eu-west-2.amazonaws.com/make-it-scotch/images/Recipes/_recipeImageLarge/Pork-Milanese-4-600x580-1.jpg",
-          name: "Milanese with tagliatelle",
+          name: "Milanese with Tagliatelle",
           description:
             "A crispy, breaded veal cutlet served alongside buttery tagliatelle pasta, often garnished with a squeeze of fresh lemon and Parmesan.",
           question:
@@ -89,7 +89,7 @@ export default {
           person: "Andrew",
           image:
             "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/the-best-spaghetti-bolognese-7e83155.jpg",
-          name: "Home made Bolognese",
+          name: "Homemade Bolognese",
           description:
             "A rich and hearty Italian meat sauce slow-cooked with tomatoes, minced beef, onions, carrots, celery, and red wine, traditionally served over pasta for a comforting meal.",
           question:
@@ -141,7 +141,7 @@ export default {
           person: "Dimitri",
           image:
             "https://www.allrecipes.com/thmb/YDL6yQbN_r59nTJenOx1q9OPdLs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23852-creamy-chicken-and-wild-rice-soup-ddmfs-step1-08-4x3-6e07237694f44ec1a6f92610a56a241b.jpg",
-          name: "Chicken Soup",
+          name: "Homemade Chicken Soup",
           description:
             "The person described this soup as an original so we rather ask him the description",
           question:
