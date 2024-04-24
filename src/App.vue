@@ -51,7 +51,8 @@ export default {
           name: "Milanese with tagliatelle",
           description:
             "A crispy, breaded veal cutlet served alongside buttery tagliatelle pasta, often garnished with a squeeze of fresh lemon and Parmesan.",
-          question: "What’s your favorite comfort food?",
+          question:
+            "A French classic you would not like as much as the world do?",
           flipped: false,
         },
         {
@@ -284,7 +285,7 @@ export default {
           image:
             "https://madhurasrecipe.com/wp-content/uploads/2023/05/Chole-Bhature-Featured.jpg",
           name: "Amritsari Chole Bhature",
-          question: "Do you look at Food design when eating?",
+          question: "Do you look at food design when eating?",
           description:
             "Punjabi dish from Amritsar, India, featuring spicy curried chickpeas (Chole) paired with fluffy, deep-fried bread (Bhature).",
         },
