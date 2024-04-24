@@ -22,7 +22,7 @@
             <template v-slot>
               <div>
                 <b
-                  v-if="!index + 1 === 19"
+                  v-if="index + 1 !== 19"
                   class="card-person"
                   :class="item.person"
                 >
