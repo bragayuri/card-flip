@@ -15,19 +15,28 @@
           <ScratchCard
             :id="index"
             :width="300"
-            :height="50"
+            :height="70"
             @scratching="handleScratching"
             @contentRevealed="triggerConfetti"
           >
             <template v-slot>
-              <b class="card-person" :class="item.person">
-                {{ item.person }}'s favourite dish
-              </b>
+              <div>
+                <b
+                  v-if="!index + 1 === 19"
+                  class="card-person"
+                  :class="item.person"
+                >
+                  {{ item.person }}'s favourite dish
+                </b>
+                <b v-else>
+                  {{ item.person }}
+                </b>
+                <p class="card-question">{{ item.question }}</p>
+              </div>
             </template>
           </ScratchCard>
           <p class="card-food">{{ item.name }}</p>
           <p class="card-description">{{ item.description }}</p>
-          <p class="card-question">{{ item.question }}</p>
         </div>
       </div>
     </div>
@@ -167,7 +176,7 @@ export default {
           description:
             "Vegetarian Lomo Saltado is a meat-free version of the classic Peruvian stir-fry dish traditionally made with beef.",
           question:
-            "Have you ever applied your data science skills to solve a challenging problem in the kitchen, and what was the outcome?",
+            "Have you ever applied your data science skills to solve a problem in the kitchen?",
           flipped: false,
         },
         {
@@ -232,14 +241,15 @@ export default {
           question: "What food reminds you of home?",
         },
         {
-          person: "Niklas",
+          person: "Happy Birthday Niklas!!!!!!",
           image:
             "https://assets.bonappetit.com/photos/57ad50c31b334044149755e7/master/pass/herb-crusted-rack-of-lamb-with-new-potatoes.jpg",
           name: "Herb Crusted Rack of Lamb",
           description:
             "A succulent roasted dish featuring a tender cut of lamb encased in a flavorful herb and breadcrumb crust.",
           flipped: false,
-          question: "What’s the weirdest food combination you enjoy?",
+          question:
+            "Can you tell us about one birthday cake you will never forget?",
         },
         {
           person: "Mazen",
@@ -259,7 +269,7 @@ export default {
           description:
             "Mlokhiyeh is a traditional Middle Eastern dish made from jute leaves cooked with garlic, coriander, and chicken, served with rice or bread.",
           flipped: false,
-          question: "Can you tell me an unforgettable experience with food?",
+          question: "Can you tell us an unforgettable experience with food?",
         },
         {
           person: "David",
@@ -290,7 +300,7 @@ export default {
             "Punjabi dish from Amritsar, India, featuring spicy curried chickpeas (Chole) paired with fluffy, deep-fried bread (Bhature).",
         },
         {
-          person: "Ibtisam Tahir",
+          person: "Ibtisam",
           image:
             "https://glebekitchen.com/wp-content/uploads/2019/12/chickenbiryanibowltop.jpg",
           name: "Biryani",
@@ -398,6 +408,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+
+p.card-question {
+  font-size: 1px;
 }
 
 .card:hover {
@@ -525,5 +539,10 @@ body {
     width: 20px;
     height: 20px;
   }
+}
+
+.card-question {
+  font-size: 12px !important;
+  border-bottom: none !important;
 }
 </style>
