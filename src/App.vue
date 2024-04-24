@@ -93,7 +93,7 @@ export default {
           description:
             "A rich and hearty Italian meat sauce slow-cooked with tomatoes, minced beef, onions, carrots, celery, and red wine, traditionally served over pasta for a comforting meal.",
           question:
-            "If you could pick that last meal of your life, what would that be (cripy I know)?",
+            "If you could pick the last meal of your life, what would it be? (Creepy, I know.)",
           flipped: false,
         },
         {
@@ -112,7 +112,7 @@ export default {
             "https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
           name: "Pizza",
           description:
-            "Italian dish consisting of a round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients, baked at a high temperature, traditionally in a wood-fired oven.",
+            "Italian dish consisting of a round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients, baked at a high temperature.",
           question: "Sweet, savory, or spicy food?",
           flipped: false,
         },
@@ -123,7 +123,7 @@ export default {
           name: "Chicken Dumpling",
           description:
             "Chicken dumplings, featuring minced chicken wrapped in dough and then steamed, boiled, or fried.",
-          question: "Any food you used to hate and now you love?",
+          question: "Is there any food you once hated but now love?",
           flipped: false,
         },
         {
@@ -218,7 +218,7 @@ export default {
             "Chicken Stroganoff is a variation of the classic Russian dish traditionally made with beef.",
           flipped: false,
           question:
-            "Any food you love so much you end up eating every week or month?",
+            "Is there any food you love so much that you end up eating it every week or month?",
         },
         {
           person: "Arbaz",
@@ -241,7 +241,7 @@ export default {
           question: "What food reminds you of home?",
         },
         {
-          person: "Happy Birthday Niklas!!!!!!",
+          person: "Happy Birthday Niklas!!!",
           image:
             "https://assets.bonappetit.com/photos/57ad50c31b334044149755e7/master/pass/herb-crusted-rack-of-lamb-with-new-potatoes.jpg",
           name: "Herb Crusted Rack of Lamb",
@@ -286,7 +286,7 @@ export default {
           image:
             "https://bittmanproject.com/wp-content/uploads/ScreenShot2019-06-10at4.39.07PM.png",
           name: "Steak",
-          question: "Any food you are not into it but people love?",
+          question: "Any food you're not into but people love?",
           description:
             "High-quality beef taken from the hindquarters of the animal, typically cut into thick slices that are cooked by grilling or frying.",
         },
