@@ -380,7 +380,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   padding: 1rem;
   gap: 20px;
   background-color: black;
@@ -466,6 +466,10 @@ body {
   width: 100%;
 }
 
+.card-back p {
+  font-size: 14px;
+}
+
 .card-person {
   font-weight: 600;
 }
@@ -483,9 +487,15 @@ body {
   transform: rotateY(0deg);
 }
 
+@media (min-width: 1824px) {
+  .grid-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 @media (max-width: 1024px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr); /* Change to 3 columns on tablets */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -501,10 +511,6 @@ body {
     grid-template-columns: 1fr;
     padding: 0.5rem;
     gap: 10px;
-  }
-
-  .card {
-    height: 200px;
   }
 
   .heading {
