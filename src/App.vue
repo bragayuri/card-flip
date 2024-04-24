@@ -20,7 +20,7 @@
             @contentRevealed="triggerConfetti"
           >
             <template v-slot>
-              <div>
+              <div class="card-scratch-data">
                 <b
                   v-if="index + 1 !== 19"
                   class="card-person"
@@ -542,7 +542,13 @@ p.card-question {
 }
 
 .card-question {
-  font-size: 12px !important;
+  font-size: 14px !important;
   border-bottom: none !important;
+}
+
+.card-scratch-data {
+  padding: 0 1rem;
+  max-width: 80%;
+  margin: auto;
 }
 </style>
